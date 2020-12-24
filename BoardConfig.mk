@@ -135,3 +135,17 @@ TARGET_USES_MKE2FS := true
 TW_EXCLUDE_TWRPAPP := true
 TW_NO_SCREEN_BLANK := true
 PLATFORM_VERSION := 16.1.0
+
+#Ignore Missing Dependencies
+ALLOW_MISSING_DEPENDENCIES=true
+
+
+#SHRP_Variables
+SHRP_PATH := device/coolpad/c103
+SHRP_MAINTAINER := Dronacharyaa
+SHRP_DEVICE_CODE := phoenix
+SHRP_EDL_MODE := 1
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
